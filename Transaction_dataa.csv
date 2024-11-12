@@ -1,7 +1,7 @@
 import pandas as pd
 
-# Create a dictionary with the cleaned data
-data = {
+# Initial data for the first DataFrame
+data_1 = {
     'TransactionID': [10258, 10275, 10275, 10292, 10293, 10293, 10293, 10293, 10304, 10304, 10306, 10306, 10306, 10311, 10311, 10316, 10325, 10325, 10325, 10325, 10340, 10340, 10351, 10351, 10351, 10357],
     'CustID': [1, 2, 2, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 6, 6, 7, 8, 8, 8, 8, 9, 9, 1, 1, 1, 10],
     'Date': ['7/17/2023', '8/7/2023', '8/7/2023', '8/28/2023', '8/29/2023', '8/29/2023', '8/29/2023', '8/29/2023', '9/12/2023', '9/12/2023', '9/16/2023', '9/16/2023', '9/16/2023', '9/20/2023', '9/20/2023', '9/27/2023', '10/9/2023', '10/9/2023', '10/9/2023', '10/9/2023', '10/29/2023', '10/29/2023', '11/11/2023', '11/11/2023', '11/11/2023', '11/19/2023'],
@@ -17,28 +17,15 @@ data = {
     'OrderTotal': [165.89, 46.66, 285.12, 1399.68, 648, 38.88, 189.54, 40.18, 475.2, 37.15, 223.56, 282.96, 31.86, 72.58, 217.73, 83.16, 129.6, 62.21, 180.79, 43.2, 1080, 99.79, 4553.28, 108.11, 181.44, 430.27]
 }
 
-# Create a DataFrame from the dictionary
-df = pd.DataFrame(data)
-import pandas as pd
+# Create the first DataFrame from the data_1 dictionary
+df_1 = pd.DataFrame(data_1)
 
-# Data provided
-data = 
+# Additional transaction data to add (data_2)
+data_2 = [
     {"TransactionID": 10364, "CustID": 11, "Date": "11/26/2023", "Employee": "Nancy Davolio", "ProductID": 71, "ProductName": "Flotemysost", "VendorID": 15, "ProductVendor": "Norske Meierier", "UnitPrice": 17.2, "Quantity": 5, "Subtotal": 86, "Tax(8%)": 6.88, "OrderTotal": 92.88},
     {"TransactionID": 10371, "CustID": 12, "Date": "12/3/2023", "Employee": "Nancy Davolio", "ProductID": 36, "ProductName": "Inlagd Sill", "VendorID": 17, "ProductVendor": "Svensk Sjfda AB", "UnitPrice": 15.2, "Quantity": 6, "Subtotal": 91.2, "Tax(8%)": 7.3, "OrderTotal": 98.5},
-    {"TransactionID": 10374, "CustID": 13, "Date": "12/5/2023", "Employee": "Nancy Davolio", "ProductID": 58, "ProductName": "Escargots de Bourgogne", "VendorID": 27, "ProductVendor": "Escargots Nouveaux", "UnitPrice": 10.6, "Quantity": 15, "Subtotal": 159, "Tax(8%)": 12.72, "OrderTotal": 171.72},
-    {"TransactionID": 10377, "CustID": 14, "Date": "12/9/2023", "Employee": "Nancy Davolio", "ProductID": 28, "ProductName": "Rssle Sauerkraut", "VendorID": 12, "ProductVendor": "Plutzer Lebensmittelgromrkte AG", "UnitPrice": 36.4, "Quantity": 20, "Subtotal": 728, "Tax(8%)": 58.24, "OrderTotal": 786.24},
-    {"TransactionID": 10377, "CustID": 14, "Date": "12/9/2023", "Employee": "Nancy Davolio", "ProductID": 39, "ProductName": "Chartreuse verte", "VendorID": 18, "ProductVendor": "Aux joyeux ecclsiastiques", "UnitPrice": 14.4, "Quantity": 20, "Subtotal": 288, "Tax(8%)": 23.04, "OrderTotal": 311.04},
-    {"TransactionID": 10385, "CustID": 15, "Date": "12/17/2023", "Employee": "Nancy Davolio", "ProductID": 7, "ProductName": "Uncle Bob's Organic Dried Pears", "VendorID": 3, "ProductVendor": "Grandma Kelly's Homestead", "UnitPrice": 24, "Quantity": 10, "Subtotal": 240, "Tax(8%)": 19.2, "OrderTotal": 259.2},
-    {"TransactionID": 10385, "CustID": 15, "Date": "12/17/2023", "Employee": "Nancy Davolio", "ProductID": 60, "ProductName": "Camembert Pierrot", "VendorID": 28, "ProductVendor": "Gai pturage", "UnitPrice": 27.2, "Quantity": 20, "Subtotal": 544, "Tax(8%)": 43.52, "OrderTotal": 587.52},
-    {"TransactionID": 10385, "CustID": 15, "Date": "12/17/2023", "Employee": "Nancy Davolio", "ProductID": 68, "ProductName": "Scottish Longbreads", "VendorID": 8, "ProductVendor": "Specialty Biscuits, Ltd.", "UnitPrice": 10, "Quantity": 8, "Subtotal": 80, "Tax(8%)": 6.4, "OrderTotal": 86.4},
-    {"TransactionID": 10387, "CustID": 16, "Date": "12/18/2023", "Employee": "Nancy Davolio", "ProductID": 24, "ProductName": "Guaran Fantstica", "VendorID": 10, "ProductVendor": "Refrescos Americanas LTDA", "UnitPrice": 3.6, "Quantity": 15, "Subtotal": 54, "Tax(8%)": 4.32, "OrderTotal": 58.32},
-    {"TransactionID": 10387, "CustID": 16, "Date": "12/18/2023", "Employee": "Nancy Davolio", "ProductID": 28, "ProductName": "Rssle Sauerkraut", "VendorID": 12, "ProductVendor": "Plutzer Lebensmittelgromrkte AG", "UnitPrice": 36.4, "Quantity": 6, "Subtotal": 218.4, "Tax(8%)": 17.47, "OrderTotal": 235.87},
-    {"TransactionID": 10387, "CustID": 16, "Date": "12/18/2023", "Employee": "Nancy Davolio", "ProductID": 59, "ProductName": "Raclette Courdavault", "VendorID": 28, "ProductVendor": "Gai pturage", "UnitPrice": 44, "Quantity": 12, "Subtotal": 528, "Tax(8%)": 42.24, "OrderTotal": 570.24},
-    {"TransactionID": 10387, "CustID": 16, "Date": "12/18/2023", "Employee": "Nancy Davolio", "ProductID": 71, "ProductName": "Flotemysost", "VendorID": 15, "ProductVendor": "Norske Meierier", "UnitPrice": 17.2, "Quantity": 15, "Subtotal": 258, "Tax(8%)": 20.64, "OrderTotal": 278.64},
-    {"TransactionID": 10393, "CustID": 17, "Date": "12/25/2023", "Employee": "Nancy Davolio", "ProductID": 25, "ProductName": "NuNuCa Nu-Nougat-Creme", "VendorID": 11, "ProductVendor": "Heli Swaren GmbH & Co. KG", "UnitPrice": 11.2, "Quantity": 7, "Subtotal": 78.4, "Tax(8%)": 6.27, "OrderTotal": 84.67},
-    {"TransactionID": 10394, "CustID": 18, "Date": "12/25/2023", "Employee": "Nancy Davolio", "ProductID": 13, "ProductName": "Konbu", "VendorID": 6, "ProductVendor": "Mayumi's", "UnitPrice": 4.8, "Quantity": 10, "Subtotal": 48, "Tax(8%)": 3.84, "OrderTotal": 51.84},
-    {"TransactionID": 10394, "CustID": 18, "Date": "12/25/2023", "Employee": "Nancy Davolio", "ProductID": 62, "ProductName": "Tarte au sucre", "VendorID": 29, "ProductVendor": "Forts d'rables", "UnitPrice": 39.4, "Quantity": 10, "Subtotal": 394, "Tax(8%)": 31.52, "OrderTotal": 425.52},
-    {"TransactionID": 10396, "CustID": 19, "Date": "12/27/2023", "Employee": "Nancy Davolio", "ProductID": 72, "ProductName": "Mozzarella di Giovanni", "VendorID": 14, "ProductVendor": "Formaggi Fortini s.r.l.", "UnitPrice": 27.8, "Quantity": 21, "Subtotal": 583.8, "Tax(8%)": 46.7, "OrderTotal": 630.5},
-    {"TransactionID": 10400, "CustID": 11, "Date": "1/1/2024", "Employee": "Nancy Davolio", "ProductID": 29, "ProductName": "Thringer Rostbratwurst", "VendorID": 12, "ProductVendor": "Plutzer Lebensmittelgromrkte AG", "UnitPrice": 99, "Quantity": 21, "Subtotal": 2079, "
+    {"TransactionID": 10374, "CustID": 13, "Date": "12/5/2023", "Employee": "Nancy Davolio", "ProductID": 58, "ProductName": "Escargots de Bourgogne", "VendorID": 27, "ProductVendor": "Escargots Nouveaux", "UnitPrice": 10.6, "Quantity": 15, "Subtotal": 159, "Tax(8%)": 12.72, "OrderTotal": 171.72}
+]
 
-
+# Create the second DataFrame from the data_2 list
+df_2 = pd.DataFrame(data
