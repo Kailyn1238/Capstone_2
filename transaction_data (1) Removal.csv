@@ -1,0 +1,10 @@
+TransactionID,CustID,Date,Employee,ProductID,ProductName,VendorID,ProductVendor,UnitPrice,Quantity,Subtotal,Tax(8%),OrderTotal
+10258,1,7/17/2023 0:00,Nancy Davolio,32,Mascarpone Fabioli,14,Formaggi Fortini s.r.l.,25.6,6,153.6,12.29,165.89
+10262,7,7/22/2023 0:00,Laura Callahan,5,Chef Anton's Gumbo Mix,2,New Orleans Cajun Delights,17,12,204,16.32,220.32
+10255,28,7/12/2023 0:00,Anne Dodsworth,2,Chang,1,Exotic Liquids,15.2,20,304,24.32,328.32
+10251,29,7/8/2023 0:00,Janet Leverling,22,Gustaf's Knckebrd,9,PB Knckebrd AB,16.8,6,100.8,8.06,108.86
+10250,42,7/8/2023 0:00,Margaret Peacock,41,Jack's New England Clam Chowder,19,New England Seafood Cannery,7.7,10,77,6.16,83.16
+10289,62,8/26/2023 0:00,Robert King,64,Wimmers gute Semmelkndel,12,Plutzer Lebensmittelgromrkte AG,26.6,9,239.4,19.15,258.55
+10265,65,7/25/2023 0:00,Andrew Fuller,70,Outback Lager,7,"Pavlova, Ltd.",12,20,240,19.2,259.2
+10248,67,7/4/2023 0:00,Steven Buchanan,11,Queso Cabrales,5,Cooperativa de Quesos 'Las Cabras',14,12,168,13.44,181.44
+10249,79,7/5/2023 0:00,Michael Suyama,14,Tofu,6,Mayumi's,18.6,9,167.4,13.39,180.79
