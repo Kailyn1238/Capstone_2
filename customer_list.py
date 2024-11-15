@@ -1,83 +1,82 @@
-﻿cust_id|date|time|name|email|phone|sms-opt-out 
-
-1|2023-03-15|0 8:45:12|Rachel|rachel@centralperk.coffee|212-555-1001|N
-2|2023-05-22|12:30:45|Geller|rossg@centralperk.coffee|212-555-1002|N
-3|2023-07-0 9|18:15:27|Monica Geller|chefmonica@centralperk.coffee|212-555-1003|N
-4|2023-0 9-0 1|21:05:33|Chandler Bing|chandlerb@centralperk.coffee|212-555-1004|Y
+﻿cust_id|date|time|name|email|phone|sms-opt-out
+1|2023-03-15|08:45:12|Rachel|rachel@centralperk.coffee|212-555-1001|N
+2|2023-05-22|12:30:45|R&! Geller|rossg@centralperk.coffee|212-555-1002|N
+3|2023-07-09|18:15:27|Monica Geller|chefmonica@centralperk.coffee|212-555-1003|N
+4|2023-09-01|21:05:33|Chandler Bing|chandlerb@centralperk.coffee|212-555-1004|Y
 5|2023-11-18|14:22:10|Joey|howyoudoing@centralperk.coffee|212-555-1005|N
-6|2024-01-0 5|10:55:49|P.Buffay|smellycat@centralperk.coffee|212-555-1006|N
+6|2024-01-05|10:55:49|P&! Buffay|smellycat@centralperk.coffee|212-555-1006|N
 7|2024-02-14|16:40:05|Gunther|gunther@centralperk.coffee|212-555-1007|N
-8|2023-04-20|0 9:15:30|Janice|ohmygod@centralperk.coffee|212-555-1008|N
-9|2023-06-30|13:50:55|Mike H.|mike@centralperk.coffee|212-555-1009|N
+8|2023-04-20|09:15:30|Janice|ohmygod@centralperk.coffee|212-555-1008|N
+9|2023-06-30|13:50:55|Mike H.^|mike@centralperk.coffee|212-555-1009|N
 10|2023-08-25|17:25:10|Emily|emily@centralperk.coffee|212-555-1010|N
 11|2023-04-12|09:20:30|Walter White|heisenberg@lospolloshermanos.biz|505-555-2001|N
-12|2023-0 6-25|13:45:50|Jesse Pinkman|jesse@lospolloshermanos.biz|505-555-2002|N
-13|2023-0 8-0 3|17:30:15|Skyler W.|skyler@lospolloshermanos.biz|505-555-2003|Y
+12|2023-06-25|13:45:50|Jesse Pinkman|jesse@lospolloshermanos.biz|505-555-2002|N
+13|2023-08-03|17:30:15|Skyler W.^|skyler@lospolloshermanos.biz|505-555-2003|Y
 14|2023-10-19|20:05:40|Saul Goodman|bettercallsaul@lospolloshermanos.biz|505-555-2004|N
-15|2024-02-28|11:15:25|Schrader|hank@lospolloshermanos.biz|505-555-2005|N
+15|2024-02-28|11:15:25|H&! Schrader|hank@lospolloshermanos.biz|505-555-2005|N
 16|2024-03-10|15:50:35|Gus Fring|gus@lospolloshermanos.biz|505-555-2006|N
-17|2024-0 4-22|19:25:50|Mike E.|mike@lospolloshermanos.biz|505-555-2007|N
-18|2023-0 5-14|10:30:45|Marie S.|marie@lospolloshermanos.biz|505-555-2008|N
-19|2023-0 7-27|14:05:00|Todd|todd@lospolloshermanos.biz|505-555-2009|N
-20|2023-0 9-0 9|18:40:15|Lydia R.|lydia@lospolloshermanos.biz|505-555-2010|N
-21|2023-0 1-0 5|0 6:15:20|Jon Snow|knowsnothing@westeros.kingdom|123-555-3001|N
-22|2023-0 2-18|10:40:35|Daenerys T.|dragonqueen@westeros.kingdom|123-555-3002|N
-23|2023-0 4-22|14:05:50|Tyrion L.|theimp@westeros.kingdom|123-555-3003|Y
-24|2023-0 6-30|18:30:10|Arya Stark|noface@westeros.kingdom|123-555-3004|N
-25|2023-0 8-15|22:55:25|Sansa S.|queenofthenorth@westeros.kingdom|123-555-3005|N
-26|2023-10-28|07:20:40|Cersei L.|queenregent@westeros.kingdom|123-555-3006|N
-27|2023-12-12|11:45:55|J Lannister|kingslayer@westeros.kingdom|123-555-3007|N
-28|2023-0 3-03|08:10:15|Bran Stark|threeeyedraven@westeros.kingdom|123-555-3008|N
-29|2023-05-17|12:35:30|Samwell T.|maester@westeros.kingdom|123-555-3009|N
+17|2024-04-22|19:25:50|Mike E.^|mike@lospolloshermanos.biz|505-555-2007|N
+18|2023-05-14|10:30:45|Marie S.^|marie@lospolloshermanos.biz|505-555-2008|N
+19|2023-07-27|14:05:00|Todd|todd@lospolloshermanos.biz|505-555-2009|N
+20|2023-09-09|18:40:15|Lydia R.^|lydia@lospolloshermanos.biz|505-555-2010|N
+21|2023-01-05|06:15:20|Jon Snow|knowsnothing@westeros.kingdom|123-555-3001|N
+22|2023-02-18|10:40:35|Daenerys T.^|dragonqueen@westeros.kingdom|123-555-3002|N
+23|2023-04-22|14:05:50|Tyrion L.^|theimp@westeros.kingdom|123-555-3003|Y
+24|2023-06-30|18:30:10|Arya Stark|noface@westeros.kingdom|123-555-3004|N
+25|2023-08-15|22:55:25|Sansa S.^|queenofthenorth@westeros.kingdom|123-555-3005|N
+26|2023-10-28|07:20:40|Cersei L.^|queenregent@westeros.kingdom|123-555-3006|N
+27|2023-12-12|11:45:55|J&! Lannister|kingslayer@westeros.kingdom|123-555-3007|N
+28|2023-03-03|08:10:15|Bran Stark|threeeyedraven@westeros.kingdom|123-555-3008|N
+29|2023-05-17|12:35:30|Samwell T.^|maester@westeros.kingdom|123-555-3009|N
 30|2023-07-29|16:00:45|Brienne|brienne@westeros.kingdom|123-555-3010|N
-31|2023-03-10|09:25:30|Homer S.|donuts@springfield.power|636-555-4001|N
+31|2023-03-10|09:25:30|Homer S.^|donuts@springfield.power|636-555-4001|N
 32|2023-05-05|13:50:45|Marge|marge@springfield.power|636-555-4002|N
 33|2023-07-20|18:15:00|Bart|elbarto@springfield.power|636-555-4003|N
-34|2023-09-15|22:40:15|Lisa S.|saxgirl@springfield.power|636-555-4004|Y
+34|2023-09-15|22:40:15|Lisa S.^|saxgirl@springfield.power|636-555-4004|Y
 35|2023-11-08|07:05:30|Maggie|maggie@springfield.power|636-555-4005|N
 36|2024-01-25|11:30:45|Ned Flanders|ned@springfield.power|636-555-4006|N
-37|2024-03-18|15:55:00|Mr.Burns|monty@springfield.power|636-555-4007|N
+37|2024-03-18|15:55:00|Mr&! Burns|monty@springfield.power|636-555-4007|N
 38|2023-04-22|10:20:15|Krusty|krusty@springfield.power|636-555-4008|N
 39|2023-06-14|14:45:30|Chief Wiggum|wiggum@springfield.power|636-555-4009|N
 40|2023-08-27|19:10:45|Milhouse|milhouse@springfield.power|636-555-4010|N
 41|2023-02-12|08:35:15|Michael Scott|mscott@dundermifflin.com|570-555-5001|N
-42|2023-04-28|12:00:30|Jim H.|jim@dundermifflin.com|570-555-5002|N
+42|2023-04-28|12:00:30|Jim H.^|jim@dundermifflin.com|570-555-5002|N
 43|2023-07-05|16:25:45|Pam Beesly|pam@dundermifflin.com|570-555-5003|Y
 44|2023-09-22|20:50:00|Dwight Schrute|dwight@dundermifflin.com|570-555-5004|N
-45|2023-11-30|06:15:15|Angela M.|angela@dundermifflin.com|570-555-5005|N
-46|2024-02-14|10:40:30|Kevin M.|kevin@dundermifflin.com|570-555-5006|N
-47|2024-04-01|15:05:45|Stanley H.|stanley@dundermifflin.com|570-555-5007|N
-48|2023-03-18|09:30:00|Andy B.|andy@dundermifflin.com|570-555-5008|N
-49|2023-05-25|13:55:15|Oscar M.|oscar@dundermifflin.com|570-555-5009|N
+45|2023-11-30|06:15:15|Angela M.^|angela@dundermifflin.com|570-555-5005|N
+46|2024-02-14|10:40:30|Kevin M.^|kevin@dundermifflin.com|570-555-5006|N
+47|2024-04-01|15:05:45|Stanley H.^|stanley@dundermifflin.com|570-555-5007|N
+48|2023-03-18|09:30:00|Andy B.^|andy@dundermifflin.com|570-555-5008|N
+49|2023-05-25|13:55:15|Oscar M.^|oscar@dundermifflin.com|570-555-5009|N
 50|2023-08-10|18:20:30|Creed|creed@dundermifflin.com|570-555-5010|N
 51|2023-03-22|07:15:20|Eleven|eleven@hawkins.ind|219-555-6001|N
-52|2023-06-12|11:40:35|Mike W.|mike@hawkins.ind|219-555-6002|N
-53|2023-09-05|16:05:50|Dustin H.|dustin@hawkins.ind|219-555-6003|N
-54|2023-11-18|20:30:05|Lucas S.|lucas@hawkins.ind|219-555-6004|N
-55|2024-02-28|08:55:20|Will B.|will@hawkins.ind|219-555-6005|N
+52|2023-06-12|11:40:35|Mike W.^|mike@hawkins.ind|219-555-6002|N
+53|2023-09-05|16:05:50|Dustin H.^|dustin@hawkins.ind|219-555-6003|N
+54|2023-11-18|20:30:05|Lucas S.^|lucas@hawkins.ind|219-555-6004|N
+55|2024-02-28|08:55:20|Will B.^|will@hawkins.ind|219-555-6005|N
 56|2023-01-15|08:10:25|Leslie Knope|leslie@pawnee.gov|317-555-7001|N
 57|2023-03-30|12:35:40|Ron Swanson|ron@pawnee.gov|317-555-7002|N
-58|2023-06-18|17:00:55|Tom H.|tom@pawnee.gov|317-555-7003|N
-59|2023-09-22|21:25:10|April L.|april@pawnee.gov|317-555-7004|Y
+58|2023-06-18|17:00:55|Tom H.^|tom@pawnee.gov|317-555-7003|N
+59|2023-09-22|21:25:10|April L.^|april@pawnee.gov|317-555-7004|Y
 60|2023-12-05|07:50:25|Andy Dwyer|andy@pawnee.gov|317-555-7005|N
-61|2023-02-10|09:20:15|Jake P.|jake@nypd99.com|718-555-8001|N
-62|2023-04-25|13:45:30|Amy S.|amy@nypd99.com|718-555-8002|N
-63|2023-07-08|18:10:45|Terry J.|terry@nypd99.com|718-555-8003|N
-64|2023-09-30|22:35:00|Rosa D.|rosa@nypd99.com|718-555-8004|N
-65|2023-12-18|07:00:15|Charles B.|charles@nypd99.com|718-555-8005|N
+61|2023-02-10|09:20:15|Jake P.^|jake@nypd99.com|718-555-8001|N
+62|2023-04-25|13:45:30|Amy S.^|amy@nypd99.com|718-555-8002|N
+63|2023-07-08|18:10:45|Terry J.^|terry@nypd99.com|718-555-8003|N
+64|2023-09-30|22:35:00|Rosa D.^|rosa@nypd99.com|718-555-8004|N
+65|2023-12-18|07:00:15|Charles B.^|charles@nypd99.com|718-555-8005|N
 66|2023-02-15|08:20:10|Jeff Winger|jeff@greendale.edu|303-555-9001|N
-67|2023-03-27|12:45:25|Britta P.|britta@greendale.edu|303-555-9002|N
+67|2023-03-27|12:45:25|Britta P.^|britta@greendale.edu|303-555-9002|N
 68|2023-05-05|16:10:40|Abed Nadir|abed@greendale.edu|303-555-9003|N
 69|2023-06-18|19:35:55|Troy Barnes|troy@greendale.edu|303-555-9004|N
 70|2023-08-22|07:00:10|Annie Edison|annie@greendale.edu|303-555-9005|Y
-71|2023-10-14|11:25:25|Shirley B.|shirley@greendale.edu|303-555-9006|N
-72|2023-12-05|15:50:40|Pierce H.|pierce@greendale.edu|303-555-9007|N
+71|2023-10-14|11:25:25|Shirley B.^|shirley@greendale.edu|303-555-9006|N
+72|2023-12-05|15:50:40|Pierce H.^|pierce@greendale.edu|303-555-9007|N
 73|2024-01-18|18:15:55|Dean Pelton|dean@greendale.edu|303-555-9008|N
 74|2024-03-02|08:40:10|Ben Chang|chang@greendale.edu|303-555-9009|N
 75|2024-04-15|13:05:25|Magnitude|pop@greendale.edu|303-555-9010|N
 76|2023-01-20|09:30:15|Carrie Mathison|carrie@cia.gov|202-555-9101|N
 77|2023-02-28|13:55:30|Nicholas Brody|brody@cia.gov|202-555-9102|N
-78|2023-04-12|17:20:45|Saul B.|saul@cia.gov|202-555-9103|Y
+78|2023-04-12|17:20:45|Saul B.^|saul@cia.gov|202-555-9103|Y
 79|2023-05-25|20:45:00|Peter Quinn|quinn@cia.gov|202-555-9104|N
 80|2023-07-08|07:10:15|David Estes|estes@cia.gov|202-555-9105|N
 81|2023-08-16|11:35:30|Jessica B.^|jessica@cia.gov|202-555-9106|N
@@ -300,7 +299,7 @@
 298|2023-05-04|17:00:55|Odo|odo@ds9.starfleet|247-555-2303|N
 299|2023-06-17|20:25:10|Jadzia Dax|dax@ds9.starfleet|247-555-2304|N
 300|2023-07-30|08:50:25|Julian Bashir|bashir@ds9.starfleet|247-555-2305|Y
-301|2023-09-12|12:15:40|Miles O[']Brien|obrien@ds9.starfleet
+301|2023-09-12|12:15:40|Miles O[']Brien|obrien@ds9.starfleet||
 302|2023-02-14|08:15:25|Buffy Summers|buffy@sunnydale.high|805-555-1101|N
 303|2023-04-28|12:40:50|Willow R.^|willow@sunnydale.high|805-555-1102|N
 304|2023-07-05|17:05:15|Xander Harris|xander@sunnydale.high|805-555-1103|N
@@ -521,3 +520,7 @@
 519|2023-03-05|09:20:00|Buford|buford@danvillekids.com|555-555-3208|N
 520|2023-05-18|13:45:15|Vanessa D.^|vanessa@danvillekids.com|555-555-3209|N
 521|2023-08-01|18:10:30|Linda Flynn-Fletcher|linda@danvillekids.com|555-555-3210|N
+522||04:28:00|Anthony|aperez9530@gmail.com|773-226-1000|Y
+523||18:20:17|Anthony|cubsperez95@yahoo.com|773-226-1000|Y
+524|2024-11-14|18:24:41|Anthony|cubsperez95@yahoo.com|773-226-1000|Y
+525|2024-11-14|18:25:32|Anthony|cubsperez95@yahoo.com|773-226-1000|Y
