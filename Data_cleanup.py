@@ -49,7 +49,7 @@ def clean_data(file_path):
         print("Preview of cleaned data:\n", data.head())
 
         # Ask for output file name/path
-        output_file = input("Enter the name (or full path) of the output CSV file (e.g., cleaned_data.csv): ")
+        output_file = input("Enter the name (or full path) of the output CSV file (cleaned_data.csv): ")
 
         # Save the cleaned data to a CSV file Yay.
         data.to_csv(output_file, index=False)
@@ -61,5 +61,5 @@ def clean_data(file_path):
 # Entry point of the program :)
 if __name__ == "__main__":
     # Ask the user for the input file name or path
-    input_file = input("Enter the full path or name of the file to be cleaned (e.g., data.txt): ")
+    input_file = input("Enter the full path or name of the file to be cleaned (data.txt): ")
     clean_data(input_file)
